@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+title: Kylene M Cooley
 ---
-
+Welcome to my blog and teaching portfolio! 
