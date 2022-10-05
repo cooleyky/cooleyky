@@ -1,0 +1,144 @@
+WEBVTT
+
+00:00:00.288 --> 00:00:03.340
+Hello and welcome to another meeting of latex for any discipline. Here is module one.
+
+
+
+00:00:03.340 --> 00:00:08.287
+Hello and welcome to another meeting of latex for any discipline. Here is module one.
+
+00:00:08.287 --> 00:00:24.287
+Today I'm just going to walk you through the instructions and a bit of what you'll be using for the first assignment or primary learning outcome today is to start from the template, and then end up with your own original document and later.
+
+00:00:24.287 --> 00:00:35.287
+Finally to complete this assignment you will have to upload the PDF to the discussion forum, so that your classmates can see your introduction to them.
+
+00:00:35.287 --> 00:00:39.287
+All right, and then some secondary learning outcomes.
+
+00:00:39.287 --> 00:00:51.307
+Although this is more of what you will be left with after this assignment. So, specifically, I'm hoping we built confidence and changing source code and also to introduce yourself to classmates, as I mentioned earlier.
+
+
+
+
+00:00:51.307 --> 00:00:51.766
+Although this is more of what you will be left with after this assignment. So, specifically, I'm hoping we built confidence and changing source code and also to introduce yourself to classmates, as I mentioned earlier.
+
+00:00:51.766 --> 00:00:53.008
+So let's jump into it.
+
+
+
+
+00:00:53.008 --> 00:00:53.652
+So let's jump into it.
+
+00:00:53.652 --> 00:00:56.652
+Right, I have on the right side.
+
+00:00:56.652 --> 00:01:05.652
+And the assignment directions for this. And on the left.
+
+00:01:05.652 --> 00:01:07.652
+Already have Overleaf open.
+
+00:01:07.652 --> 00:01:14.527
+You will get to the same login screen just by control click over this hyperlink, and from here you can either register with an email create or login with Google, even if it's your first time or through an institutional account.
+
+
+
+
+00:01:14.527 --> 00:01:15.016
+You will get to the same login screen just by control click over this hyperlink, and from here you can either register with an email create or login with Google, even if it's your first time or through an institutional account.
+
+
+
+
+00:01:15.016 --> 00:01:15.448
+You will get to the same login screen just by control click over this hyperlink, and from here you can either register with an email create or login with Google, even if it's your first time or through an institutional account.
+
+00:01:15.448 --> 00:01:29.448
+I already have an institutional account. And so I will just go ahead and log in with my email, and then from here, new project. And so all of us, and we're starting with the example project.
+
+00:01:29.448 --> 00:01:36.448
+I'm going to name this based on how I request it at the bottom of the document so last name.
+
+00:01:36.448 --> 00:01:40.039
+For me, and and our class code. It's OEAS.
+
+
+
+
+00:01:40.039 --> 00:01:40.366
+Okay, cut it after this point.
+
+00:01:40.366 --> 00:01:55.967
+Oh yes. For 95, or 595, and if you are doing the grad version of this slash class, and we'll just title this intro, no need to add any suffix on there for a file type.
+
+
+
+
+00:01:55.967 --> 00:02:07.534
+And it is compiling which is the same as creating this PDF preview right so I have just full screen opened this up so that way you can see all three panels which will be important during the homework assignment.
+
+00:02:07.534 --> 00:02:27.534
+On the right is the PDF preview, then here is the source code, which we will exclusively be working with source code Novi to switch to rich text editing and on the left is the document project file folder here on the top and the file outline on the bottom.
+
+00:02:27.534 --> 00:02:47.534
+As file outlines pretty cool because it takes all of these headings section or sub section, and you can just click to wherever you want to go on the page will go to how to add comments and track changes, and the source code jumps there.
+
+00:02:47.534 --> 00:02:51.534
+So from here just want to show you since it's kind of small.
+
+00:02:51.534 --> 00:03:01.748
+We're going to be tracking changes so that way you can undo any changes you make. So you're going to highlight some text, upper right corner of the source code,
+
+
+
+
+00:03:01.748 --> 00:03:02.338
+We're going to be tracking changes so that way you can undo any changes you make. So you're going to highlight some text, upper right corner of the source code,
+
+00:03:02.338 --> 00:03:08.338
+comment, and right under that where your mouse was you can see track changes as off, we want that on for everyone.
+
+00:03:08.338 --> 00:03:12.031
+Track Changes is off, we want that on for everyone. And even if you add a collaborator. You can see what they do as well in the sidebar.
+
+
+
+
+00:03:12.031 --> 00:03:18.740
+Track Changes is off, we want that on for everyone. And even if you add a collaborator. You can see what they do as well in the sidebar.
+
+00:03:18.740 --> 00:03:21.658
+but we're not adding comment right now. and
+
+
+
+
+00:03:21.658 --> 00:03:22.950
+but we're not adding comment right now. and
+
+00:03:22.950 --> 00:03:30.950
+we can close this by hovering over this right arrow, or the whole sidebar.
+
+00:03:30.950 --> 00:03:49.950
+Right. So some other little features of this the upload button, where you will be uploading an image is over here above the project folder. You can edit your title just by clicking in here say, Oh, I'm actually in the grad level, like searching that to
+
+00:03:49.950 --> 00:04:03.950
+595 right there. And over here is the download PDF button, which you will be using to download your final file to upload.
+
+00:04:03.950 --> 00:04:10.950
+And right here where it says re compile, if you change anything on the source code, make sure you hit that re compile button.
+
+00:04:10.950 --> 00:04:22.950
+So it shows up in your PDF. You can also have this set simply to on, I believe this is automatic.
+
+00:04:22.950 --> 00:04:45.371
+Auto compile, I was covering that. Okay, so you can also have that set on and not all just keep changing it. I used to have to have that turned off because the slow internet but hopefully that is not an issue for you.
+
+
+
