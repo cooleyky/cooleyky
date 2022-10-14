@@ -1,4 +1,4 @@
-My GitHub Pages Repository
+### My GitHub Pages Repository
 
 I'm hosting my personal website from this GitHub repository at [cooleyky.github.io](cooleyky.github.io). On my website you can find my current resume, recent projects and updates, and my teaching portfolio. Check back often to see how I'm progressing as I am rapidly adding new contributions to this repo right now.
 
