@@ -2333,9 +2333,9 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			/* .image.left img, .image.right img {
 				width: 100%;
-			}
+			} */
 
 		.image.left {
 			float: left;
@@ -2848,7 +2848,7 @@ input, select, textarea {
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 			display: inline-block;
 		}
 
