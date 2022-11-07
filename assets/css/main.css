@@ -205,9 +205,9 @@ input, select, textarea {
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
-		margin: 0 0 2em 0;
-		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		margin: 0 0 0.75em 0;
+		/* text-transform: uppercase; */
+		letter-spacing: 0.25em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -215,7 +215,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.35em;
 	}
 
 	h3 {
@@ -223,7 +223,8 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 0.8em;
+		font-size: 1em;
+		margin: 0 0 3em 0;
 	}
 
 	h5 {
@@ -2333,9 +2334,9 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			/* .image.left img, .image.right img {
 				width: 100%;
-			}
+			} */
 
 		.image.left {
 			float: left;
@@ -2848,7 +2849,7 @@ input, select, textarea {
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 			display: inline-block;
 		}
 
