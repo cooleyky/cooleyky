@@ -65,7 +65,16 @@
 							<!-- I want to have my blog feed show up here with a link to "all blog posts" -->
 							<section>
 								<h2>Recent News and Updates</h2>
-								<!-- <p> here from most recent blog post. See docs at https://jekyllrb.com/docs/posts/#post-excerpts -->
+								<!-- Show 1st paragraph here from most recent blog post. See docs at https://jekyllrb.com/docs/posts/#post-excerpts -->
+								<!-- List of excerpts pasted below uses Liquid -->
+									<ul>
+										{% for post in site.posts %}
+										  <li>
+											<a href="{{ post.url }}">{{ post.title }}</a>
+											{{ post.excerpt }}
+										  </li>
+										{% endfor %}
+									  </ul>
 								<a href="AllBlogsIndex.html">All blog posts ---></a>
 							</section>
 							<!-- <section class="tiles"> -->
