@@ -64,8 +64,10 @@
 								<h2>Recent News and Updates</h2>
 								<!-- Show 1st paragraph here from most recent blog post with Liquid markdown. See docs at https://jekyllrb.com/docs/posts/#post-excerpts -->
 										{% for post in site.posts limit:1 %}
-										  	<a href="{{ post.url }}">{{ post.title }}</a>
-											<p>{{ post.excerpt }}</p>
+										<p>  	
+											<a href="{{ post.url }}">{{ post.title }}</a>
+											{{ post.excerpt }}
+										</p>
 										{% endfor %}
 								<a href="../AllBlogsIndex.html">All blog posts ---></a>
 							</section>
