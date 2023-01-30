@@ -1,5 +1,6 @@
 ---
-title: Website Under Construction
+title: Home
 layout: index
 ---
-# Welcome to my blog and teaching portfolio!  
+<h2>Hello World,</h2>
+<p>Welcome to my website! I am a physics nerd who dabbled in geophysics, clung to coding for dear life, and found a home in <i><b>oceanography. </b></i> My past research collaborating in a Long-Term Ecological Research group, and later investigating marine heat waves in the southeast Pacific helped me understand the importance of <i><b>accessibility </b></i> in science and the data that drives it. When I'm not playing around with ocean data, I'm reviving my sourdough starter to make waffles and trying new outdoor activities with almost too much enthusiasm. You can find some of my past work here as of now, but I'm planning to add a blog section with my current activities, interests, and more. If you know me already, then you know that <i><b>I especially like to share new-to-me resources </b></i> that I encounter when they happen to be relevant to a recent conversation with friends or a project. I encourage you to check back often as I'm currently adding several updates each week.</p>
