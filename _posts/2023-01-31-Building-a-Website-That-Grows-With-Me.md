@@ -23,7 +23,7 @@ Content for one page goes in a markdown file that has the same names as the HTML
     layout: index
     ---
 ~~~
-The page template that I mentioned before is referenced by the 'layout' variable. The layout templates live in a folder in my GitHub repository called "_layouts". The markdown file and the template are all you need! Here's the kicker: your template *is* the original HTML file that you started with.
+The page template that I mentioned before is referenced by the `layout` variable. The layout templates live in a folder in my GitHub repository called "_layouts". The markdown file and the template are all you need! Here's the kicker: your template *is* the original HTML file that you started with.
 
 ## Using Jekyll when you already lost track of your content in the template
 
@@ -47,7 +47,8 @@ I had to go through these steps tortoise-slow because I was afraid of losing all
 ~~~
 Depending on the type of page, you might also include a date, a special series of symbols to end the excerpt manually, or any other settings.
 6. Below this section, you can include your :sparkles: *content* :sparkles:. For example, I moved my bio from my homepage HTML template to the content section in my Markdown file. This way, I can find it and edit only my bio easily. Content can be formatted with Markdown or HTML commands, and with HTML nested inside Markdown, but not with Markdown inside HTML sections. 
-7. Now, replace the content that you grabbed in the HTML template with '{{ content }}'.
+7. Now, replace the content that you grabbed in the HTML template with `{{ content }}`.
+<!-- Might need to add another step here about fixing absolute links (and href's) that link to assets and stylesheets -->
 8. You can also add any other Markdown or Liquid (a different markdown-type language) to the HTML template at this point. Jekyll will recognize these parts and insert data from elsewhere in your repository depending on the commands. I added the template for blog excerpts I mentioned earlier, which you can find [here](https://jekyllrb.com/docs/posts/#post-excerpts).
 9. If you haven't yet, save your changes and push them to the main branch of your GitHub repository. Then your page should start the deployment process, but this could take a minute or two to show your changes online. You can see when the deployment process starts and finishes from the "Actions" tab in your repository.
 
