@@ -45,10 +45,10 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href={{ "/index.html" | absolute_url }}>Home</a></li>
-							<li><a href={{ "/Resume.html" | absolute_url }}>Resume</a></li>
-							<li><a href={{ "/TeachingPortfolio.html" | absolute_url }}>Teaching Portfolio</a></li>
-							<li><a href={{ "/ScienceCommunication.html" | absolute_url }}>Sciene Communication</a></li>
+							<li><a href="{{ "/index.html" | absolute_url }}">Home</a></li>
+							<li><a href="{{ "/Resume.html" | absolute_url }}">Resume</a></li>
+							<li><a href="{{ "/TeachingPortfolio.html" | absolute_url }}">Teaching Portfolio</a></li>
+							<li><a href="{{ "/ScienceCommunication.html" | absolute_url }}">Sciene Communication</a></li>
 							<!-- <li><a href="elements.html">Elements</a></li> -->
 						</ul>
 					</nav>
@@ -68,7 +68,7 @@
 											{{ post.excerpt }}
 										</p>
 										{% endfor %}
-								<a href={{ "/AllBlogsIndex.html" | absolute_url }}>All blog posts ---></a>
+								<a href="{{ "/AllBlogsIndex.html" | absolute_url }}">All blog posts ---></a>
 							</section>
 						</div>
 					</div>
