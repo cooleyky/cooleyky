@@ -4,8 +4,6 @@ layout: default
 date: 2023-01-31
 ---
 
-# {{ page.title }}
-
 I started building this website by learning new HTML commands whenever I thought of a new feature to add. It wasn't until I wanted to feature a sneak peak of my latest blog post on my homepage that I started to wonder if there was a way of automating things. Good news: There is! A very nice tutorial posted [here](https://jekyllrb.com/tutorials/convert-site-to-jekyll/) explains the process in detail. Bad news: My approach to the problem was backwards. I would have to make a bigger mess of my very detailed individual HTML pages before I could have the shiny, automated build of my site. If you also dream of an easy-to-update personal website but aren't a professional web designer, read on for my "Spark notes" on starting the process *in medias res*.
 
 ## My test blog post disappeared when I added HTML pages 😮 
