@@ -4,9 +4,11 @@ layout: default
 date: 2023-01-31
 ---
 
+# {{ page.title }}
+
 I started building this website by learning new HTML commands whenever I thought of a new feature to add. It wasn't until I wanted to feature a sneak peak of my latest blog post on my homepage that I started to wonder if there was a way of automating things. Good news: There is! A very nice tutorial posted [here](https://jekyllrb.com/tutorials/convert-site-to-jekyll/) explains the process in detail. Bad news: My approach to the problem was backwards. I would have to make a bigger mess of my very detailed individual HTML pages before I could have the shiny, automated build of my site. If you also dream of an easy-to-update personal website but aren't a professional web designer, read on for my "Spark notes" on starting the process *in medias res*.
 
-## My first test blog post disappeared when I added HTML pages :open_mouth:
+## My test blog post disappeared when I added HTML pages 😮 
 
 **DISCLAIMER:** I will be mentioning a lot of different tools used in different types of code, but you don't need to understand most of them. I will explain anything that is important to understanding my experience. My goal in mentioning these terms is only full transparency.
 
@@ -23,7 +25,7 @@ Content for one page goes in a markdown file that has the same names as the HTML
     layout: index
     ---
 ~~~
-The page template that I mentioned before is referenced by the 'layout' variable. The layout templates live in a folder in my GitHub repository called "_layouts". The markdown file and the template are all you need! Here's the kicker: your template *is* the original HTML file that you started with.
+The page template that I mentioned before is referenced by the `layout` variable. The layout templates live in a folder in my GitHub repository called "_layouts". The markdown file and the template are all you need! Here's the kicker: your template *is* the original HTML file that you started with.
 
 ## Using Jekyll when you already lost track of your content in the template
 
@@ -46,8 +48,9 @@ I had to go through these steps tortoise-slow because I was afraid of losing all
     ---
 ~~~
 Depending on the type of page, you might also include a date, a special series of symbols to end the excerpt manually, or any other settings.
-6. Below this section, you can include your :sparkles: *content* :sparkles:. For example, I moved my bio from my homepage HTML template to the content section in my Markdown file. This way, I can find it and edit only my bio easily. Content can be formatted with Markdown or HTML commands, and with HTML nested inside Markdown, but not with Markdown inside HTML sections. 
-7. Now, replace the content that you grabbed in the HTML template with '{{ content }}'.
+6. Below this section, you can include your ✨*content* ✨. For example, I moved my bio from my homepage HTML template to the content section in my Markdown file. This way, I can find it and edit only my bio easily. Content can be formatted with Markdown or HTML commands, and with HTML nested inside Markdown, but not with Markdown inside HTML sections. 
+7. Now, replace the content that you grabbed in the HTML template with `{{`` content ``}}`.
+<!-- Might need to add another step here about fixing absolute links (and href's) that link to assets and stylesheets -->
 8. You can also add any other Markdown or Liquid (a different markdown-type language) to the HTML template at this point. Jekyll will recognize these parts and insert data from elsewhere in your repository depending on the commands. I added the template for blog excerpts I mentioned earlier, which you can find [here](https://jekyllrb.com/docs/posts/#post-excerpts).
 9. If you haven't yet, save your changes and push them to the main branch of your GitHub repository. Then your page should start the deployment process, but this could take a minute or two to show your changes online. You can see when the deployment process starts and finishes from the "Actions" tab in your repository.
 

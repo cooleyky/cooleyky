@@ -4,4 +4,6 @@ layout: default
 date: 2022-10-02
 ---
 
+# {{ page.title }}
+
 I woke up thinking it was the start of the new month, but I guess that was yesterday.

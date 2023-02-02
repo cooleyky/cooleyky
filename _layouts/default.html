@@ -6,11 +6,11 @@
 -->
 <html>
 	<head>
-		<title>{{ page.name }} | {{ site.name }}</title>
+		<title>{{ page.title }} | {{ site.title }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}" />
+		<noscript><link rel="stylesheet" href="{{ "/assets/css/noscript.css" | absolute_url }}" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -20,8 +20,8 @@
 					<header id="header">
 						<div class="inner">
 
-							<a href="../index.html" class="logo">
-								<span class="title"><h1>Kylene M Cooley</h1></span>
+							<a href="{{ "/index.html" | absolute_url }}" class="logo">
+								<span class="title">Kylene M Cooley</span>
 							</a>
 
 							<!-- Nav -->
@@ -38,11 +38,11 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="{{ "/index.html" | absolute_url }}">Home</a></li>
+							<li><a href="{{ "/generic.html" | absolute_url }}">Ipsum veroeros</a></li>
+							<li><a href="{{ "/generic.html" | absolute_url }}">Tempus etiam</a></li>
+							<li><a href="{{ "/generic.html" | absolute_url }}">Consequat dolor</a></li>
+							<li><a href="{{ "/elements.html" | absolute_url }}">Elements</a></li>
 						</ul>
 					</nav>
 
@@ -97,11 +97,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src={{ "assets/js/jquery.min.js" | absolute_url }}></script>
+			<script src={{ "assets/js/browser.min.js" | absolute_url }}></script>
+			<script src={{ "assets/js/breakpoints.min.js" | absolute_url }}></script>
+			<script src={{ "assets/js/util.js" | absolute_url }}></script>
+			<script src={{ "assets/js/main.js" | absolute_url }}></script>
 
 	</body>
 </html>
