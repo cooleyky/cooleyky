@@ -1,5 +1,6 @@
 ---
 title: "It's already October 2?"
+layout: default
 date: 2022-10-02
 ---
 

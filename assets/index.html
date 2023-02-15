@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Kylene Cooley</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+							
+							<a href="index.html" class="logo">
+								<span class="title"><h1>Kylene M Cooley</h1></span>
+							</a>
+							
+							<span class="image right"><img src="images/Kylene-crossedarms.jpg" alt="" width="75%" /></span>
+
+							<!-- Logo -->
+								<!-- <a href="index.html" class="logo"> -->
+									<!-- <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Kylene M Cooley</span> -->
+								<!-- </a> -->
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Resume.html">Resume</a></li>
+							<li><a href="TeachingPortfolio.html">Teaching Portfolio</a></li>
+							<li><a href="ScienceCommunication.html">Sciene Communication</a></li>
+							<!-- <li><a href="elements.html">Elements</a></li> -->
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<!-- <h4></h4>
+							<hr /> -->
+							<section>
+								<h2>Hello World,</h2>
+								<p>Welcome to my website! I am a physics nerd who dabbled in geophysics, clung to coding for dear life, and found a home in <i><b>oceanography. </b></i> My past research collaborating in a Long-Term Ecological Research group, and later investigating marine heat waves in the southeast Pacific helped me understand the importance of <i><b>accessibility </b></i> in science and the data that drives it. When I'm not playing around with ocean data, I'm reviving my sourdough starter to make waffles and trying new outdoor activities with almost too much enthusiasm. You can find some of my past work here as of now, but I'm planning to add a blog section with my current activities, interests, and more. If you know me already, then you know that <i><b>I especially like to share new-to-me resources </b></i> that I encounter when they happen to be relevant to a recent conversation with friends or a project. I encourage you to check back often as I'm currently adding several updates each week.</p>
+							</section>	
+							<!-- I want to have my blog feed show up here with a link to "all blog posts" -->
+							<section>
+								<h2>Recent News and Updates</h2>
+								<!-- Show 1st paragraph here from most recent blog post. See docs at https://jekyllrb.com/docs/posts/#post-excerpts -->
+								<!-- List of excerpts pasted below uses Liquid -->
+									<ul>
+										{% for post in site.posts %}
+										  <li>
+											<a href="{{ post.url }}">{{ post.title }}</a>
+											{{ post.excerpt }}
+										  </li>
+										{% endfor %}
+									  </ul>
+								<a href="AllBlogsIndex.html">All blog posts ---></a>
+							</section>
+							<!-- <section class="tiles"> -->
+								<!-- <p></p> -->
+								<!-- <article class="style1">
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Magna</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Lorem</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Feugiat</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Tempus</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Aliquam</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Veroeros</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/pic07.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Ipsum</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/pic08.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Dolor</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img src="images/pic09.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Nullam</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img src="images/pic10.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Ultricies</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/pic11.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Dictum</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/pic12.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Pretium</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article> -->
+							<!-- </section> -->
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<!-- <section>
+							<h2>Get in touch</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send" class="primary" /></li>
+								</ul>
+							</form>
+						</section> -->
+						<section>
+							<h2>Let's Connect</h2>
+							<ul class="icons">
+								<!-- <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li> -->
+								<li><a href="https://www.linkedin.com/in/kylene-cooley/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li> -->
+								<li><a href="https://github.com/cooleyky" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+								<!-- <li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li> -->
+								<!-- <li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li> -->
+								<li><a href="mailto:cooleyky@oregonstate.edu" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Work Music of the Week</h2>
+							<!-- <article id="spotify-embed"></article>
+							<script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script> -->
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0JiY190vktuhSGN6aqJdrt?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>							
+						</section>
+						<ul class="copyright">
+							<li>&copy; Kylene Cooley. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+</body>
+</html>
