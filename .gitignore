@@ -35,3 +35,8 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# For local website build only #
+################################
+Gemfile*
+_site
